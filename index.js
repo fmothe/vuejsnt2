@@ -33,6 +33,7 @@ const proceso = {
                 const element2 = this.stockActual[index2];
                 if(element.codigoProducto === element2.codigoProducto) {
                     element2.cantidad += element.paraAgregar;
+                    console.log(`Se agrego ${element.paraAgregar} unidades al producto ${element2.codigoProducto}`);
                 }
             }
         }
