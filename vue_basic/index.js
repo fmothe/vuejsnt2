@@ -7,11 +7,11 @@ const app = Vue.createApp({
         };
     },
     methods: {
-        increment: function () {
+        increment() {
             return this.count++;
         },
-        decrement: function () {
+        decrement() {
             return this.count--;
-        }
+        },
     },
 }).mount("#app");
