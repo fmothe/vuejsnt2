@@ -3,9 +3,7 @@ import Sistema from './components/Sistema.vue'
 </script>
 
 <template>
-  <main>
     <Sistema/>
-  </main>
 </template>
 
 <style>

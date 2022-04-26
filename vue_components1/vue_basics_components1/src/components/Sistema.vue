@@ -1,9 +1,18 @@
+<script>
+import Cabecera from "./Cabecera.vue";
+export default {
+  components: {
+    Cabecera,
+  },
+};
+</script>
+
+
 <template>
-    <div><h1>Sistema h1</h1></div>
+  <Cabecera />
+  <Pie />
 </template>
 
-<script>
-    export default {};
-</script>
+
 
 <style></style>
